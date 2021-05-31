@@ -12,6 +12,7 @@ import java.util.List;
 
 public class Post {
 
+
 	public static void main(String[] args) {
 		RestAssured.baseURI = "https://reqres.in/";
 		RequestSpecification req = RestAssured.given();
