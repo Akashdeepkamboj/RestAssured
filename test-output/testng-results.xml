@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="79" started-at="2021-05-31T15:53:12 IST" finished-at="2021-05-31T15:53:12 IST">
+  <suite name="Default suite" duration-ms="2956" started-at="2021-06-01T19:27:08 IST" finished-at="2021-06-01T19:27:11 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="79" started-at="2021-05-31T15:53:12 IST" finished-at="2021-05-31T15:53:12 IST">
+    <test name="Default test" duration-ms="2956" started-at="2021-06-01T19:27:08 IST" finished-at="2021-06-01T19:27:11 IST">
+      <class name="com.rs.library.API.AddBook">
+        <test-method status="PASS" signature="addBook()[pri:0, instance:com.rs.library.API.AddBook@5f282abb]" name="addBook" duration-ms="2656" started-at="2021-06-01T19:27:08 IST" finished-at="2021-06-01T19:27:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBookwithData(java.lang.String,java.lang.String)[pri:0, instance:com.rs.library.API.AddBook@5f282abb]" name="addBookwithData" duration-ms="136" started-at="2021-06-01T19:27:11 IST" data-provider="BookAddition" finished-at="2021-06-01T19:27:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zasdhgasdfsdas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02334342343]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookwithData -->
+        <test-method status="PASS" signature="addBookwithData(java.lang.String,java.lang.String)[pri:0, instance:com.rs.library.API.AddBook@5f282abb]" name="addBookwithData" duration-ms="129" started-at="2021-06-01T19:27:11 IST" data-provider="BookAddition" finished-at="2021-06-01T19:27:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[znfsfsdfdvj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[050654648994]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookwithData -->
+      </class> <!-- com.rs.library.API.AddBook -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
